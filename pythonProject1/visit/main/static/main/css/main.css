@@ -1,0 +1,66 @@
+body {
+    background: #930afca6;
+}
+
+aside {
+    float: left;
+    background: #9f08c4b5;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #fab70c;
+    border-right: 5px solid #fab70c;
+}
+
+img {
+    width: 945px;
+    float: left;
+    text-align: center;
+    margin-left: 35px
+}
+
+aside .logo {
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+aside h3 {
+    margin-top: 75px;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+a:link{text-decoration: none}
+aside ul {list-style: none}
+aside ul li {
+    color: #fab70c;
+    display: block;
+    margin-top: 25px;
+    margin-left: 5px;
+    transition: transform .5s ease;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: #b4dbe0;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+main .features {
+    float: left;
+    color: #1b0c7dfd;
+    margin-top: 150px;
+    text-align: center;
+    width: 75%;
+}
+
+main .features h1 {font-size: 40px;}
+main .features p {max-width: 1500px; margin: 30px auto}
+
+.alert-primary {
+    float: left;
+    clear: both;
+    width: 700px;
+    margin: 30px 14%;
+}
